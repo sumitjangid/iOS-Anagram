@@ -1,0 +1,41 @@
+
+Name: Sumit Subhash Jangid
+
+Email: sumit.jangid@csu.fullerton.edu
+
+Description of Program: The program for the anagram requires text file of words as input.
+It scans the file and finds the list of anagrams in the file. It gives total number of anagrams, length of largest set of anagram and the largest set of anagrams as an output.
+It also shows the total time required for execution. 
+
+
+Steps to Run the program are as follows:
+
+1. Clone or Download the entire folder “asgt2”
+2. Open New Terminal
+3. GOTO the directory where you have saved this folder “asgt2”
+4. get into Anagram folder by “cd Anagram” 
+5. check whether these files are available or not in anagram folder “main.m”,”words”,”README” To check them type ls and press enter
+6. Now write the command “gcc -framework Cocoa main.m -o a”
+7. You might see two warnings ignore them.
+8. Type “./a words”    // You must have “words” file in the directory, In order to run the object file with argument which is path to the file “words”. So make sure to download or clone the entire repository.
+  
+The output will look like following:
+
+The total number of anagrams are 220713
+
+length of largest anagram is 9 
+
+The words that form the largest set of anagrams given the words in the file are as follows:
+ester
+estre
+reest
+reset
+steer
+stere
+stree
+terse
+tsere
+
+The total time to calculate the output is 1.466028 seconds
+
+// The time might differ slightly, since it is run time calculation.  
